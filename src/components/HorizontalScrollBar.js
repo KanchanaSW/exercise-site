@@ -2,8 +2,8 @@ import { Box ,Typography} from '@mui/material'
 import React, {useContext } from 'react'
 import BodyPart from './BodyPart'
 import { ScrollMenu,VisibilityContext } from 'react-horizontal-scrolling-menu'
-import RightArrowIcon from '../assets/icons/right-arrow.png';
-import LeftArrowIcon from '../assets/icons/left-arrow.png';
+import RightArrowIcon from '../assets/icons/right-2.png';
+import LeftArrowIcon from '../assets/icons/left-2.png';
 
 import ExerciseCard from './ExerciseCard';
 
@@ -12,7 +12,7 @@ const LeftArrow = () => {
   
     return (
       <Typography onClick={() => scrollPrev()} className="right-arrow">
-        <img src={LeftArrowIcon} alt="right-arrow" />
+        <img src={LeftArrowIcon} alt="right-arrow" style={{width: '60px',height: '30px'}}/>
       </Typography>
     );
   };
@@ -22,7 +22,7 @@ const LeftArrow = () => {
   
     return (
       <Typography onClick={() => scrollNext()} className="left-arrow">
-        <img src={RightArrowIcon} alt="right-arrow" />
+        <img src={RightArrowIcon} alt="right-arrow" style={{width: '60px',height: '30px'}} />
       </Typography>
     );
   };

@@ -1,14 +1,14 @@
 import React from 'react'
 import { Box,Stack,Typography } from '@mui/material'
 
-import Logo from '../assets/images/Logo-1.png'
+import Logo from '../assets/images/fotter-logo2.svg'
 
 const Footer = () => {
   return (
-    <Box mt={'80px'} bgcolor={'#fff3f4'}>
+    <Box mt={'80px'} bgcolor={'#d0ecff'}>
       <Stack gap={'40px'} alignItems={'center'} px={'40px'} pt={'24px'}>
-        <img src={Logo} alt='Logo' width={"200px"} height={"40px"} />
-        <Typography variant='h5' pb={'40px'} mt={"20px"}>
+        <img src={Logo} alt='Logo' style={{width: '250px' , height: '80px',filter: 'invert(22%) sepia(84%) saturate(7481%) hue-rotate(251deg)'}} />
+        <Typography variant='h5' pb={'40px'}>
           Made by KW 😎
         </Typography>
       </Stack>

@@ -1,6 +1,6 @@
 body {
     font-family: 'Josefin Sans';
-    background-color: #FFFAFB;
+    background-color: #f4fcfb;
   }
   
   * {
@@ -23,7 +23,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FF2625;
     font-size: 25px;
     border-radius: 4px;
     position: absolute;
@@ -57,7 +56,7 @@ body {
     position: absolute;
     right: 40px;
     top: 0px;
-    width: 700px;
+    width: 650px;
     height: 900px;
     margin-top: -330px;
   
@@ -67,7 +66,7 @@ body {
     width: 400px;
     height: 445px;
     background: #fff;
-    border-top: 4px solid #FF2625;
+    border-top: 4px solid #362FD9;
     border-bottom-left-radius: 20px;
     text-decoration: none;
     display: flex;
@@ -93,8 +92,8 @@ body {
   }
   
   .search-btn:hover {
-    color: #FF2625 !important;
-    border: 1px solid #FF2625 !important;
+    color: #362FD9 !important;
+    border: 1px solid #362FD9 !important;
   }
   
   .exercise-video {
